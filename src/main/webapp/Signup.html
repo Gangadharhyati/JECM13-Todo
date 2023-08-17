@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Signup page</h1>
+	<h3>Enter Details Below</h3>
+	
+	<form action="signup" method="post">
+		<fieldset>
+			<table>
+				<tr>
+					<th>Name:</th>
+					<th><input type="text" name="name" required="required"</th>
+				</tr>
+				<tr>
+					<th>Email:</th>
+					<th><input type="email" name="email" required="required"></th>
+				</tr>
+				<tr>
+					<th>Mobile</th>
+					<th><input type="number" name="mobile" required="required"></th>
+				</tr>
+				<tr>
+					<th>Gender:</th>
+					<th>
+						<input type="radio" name="gen" value="Male">Male
+						<input type="radio" name="gen" value="Female">female
+					</th>
+				</tr>
+				<tr>
+					<th>Date of Birth:</th>
+					<th><input type="date" name="dob" required="required"></th>
+				</tr>
+				<tr>
+					<th>Address:</th>
+					<th><textarea rows="5" cols="30" name="adr" required="required"></textarea></th>
+				</tr>
+				<tr>
+					<th>Password</th>
+					<th><input type="password" name="password" required="required"></th>
+				</tr>
+				<tr>
+					<th>Languages</th>
+					<th>
+						<input type="checkbox" name="lang" value="kannada">Kannada
+						<input type="checkbox" name="lang" value="English">English
+						<input type="checkbox" name="lang" value="Hindi">Hindi
+					</th>
+				</tr>
+				<tr>
+					<th><button>Signup</button></th>
+					<th><button>Cancel</button></th>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<br>
+	<a href="Login.html"><button>Already Have Acoount? click here to login</button></a>
+</body>
+</html>
